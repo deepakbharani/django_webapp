@@ -4,13 +4,13 @@ posts = [
 	{
 		'author': 'Bharani',
 		'title': 'FEM',
-		'content': 'First post content',
+		'content': 'Enkitta modhadha da',
 		'date_posted': 'May 06, 2021'
 	},
 	{
 		'author': 'Anusu',
 		'title': 'Finance',
-		'content': 'Her post content',
+		'content': 'Va de muniyamma',
 		'date_posted': 'May 05, 2021'
 	}
 ]
