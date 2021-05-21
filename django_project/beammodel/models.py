@@ -1,3 +1,12 @@
 from django.db import models
+#from matrix_field import MatrixField
 
-# Create your models here.
+class Beam(models.Model):
+	# Mass Matrix
+	mmatrix = models.TextField()
+	# Stiffness Matrix
+	smatrix = models.TextField()
+
+
+
+

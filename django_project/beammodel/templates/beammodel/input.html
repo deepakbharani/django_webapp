@@ -1,0 +1,25 @@
+{% extends "blog/base.html" %}
+{% block content %}
+	<h1>Enter the Matrices</h1>
+	<h2>Mass Matrix:</h2>
+	
+		<article class="media content-section">	
+		  <div class="media-body">
+		    <div class="article-metadata">
+		      <p class="article-content">{{ Beam.mmatrix }}</p>
+		    </div>
+		  </div>
+		</article>
+	
+	<h2>Stiffness Matrix:</h2>
+
+		<article class="media content-section">	
+		  <div class="media-body">
+		    <div class="article-metadata">
+		      <p class="article-content">{{ Beam.smatrix }}</p>
+		    </div>
+		  </div>
+		</article>
+
+
+{% endblock content %}
