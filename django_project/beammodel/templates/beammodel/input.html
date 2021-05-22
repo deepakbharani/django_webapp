@@ -1,12 +1,15 @@
 {% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
 {% block content %}
 	<h1>Enter the Matrices</h1>
+	
 	<h2>Mass Matrix:</h2>
 	
 		<article class="media content-section">	
 		  <div class="media-body">
 		    <div class="article-metadata">
-		      <p class="article-content">{{ Beam.mmatrix }}</p>
+		      <!--<p class="article-content">{{ Beam.mmatrix }}</p>-->
+		      {{ form|crispy }}
 		    </div>
 		  </div>
 		</article>
