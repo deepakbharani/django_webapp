@@ -8,8 +8,13 @@
 		<article class="media content-section">	
 		  <div class="media-body">
 		    <div class="article-metadata">
-		      <!--<p class="article-content">{{ Beam.mmatrix }}</p>-->
-		      {{ form|crispy }}
+		      <!--<p class="article-content">{{ Beam.mmatrix }}</p>
+		      {{ form|crispy }}-->
+		      <form action = "mult">
+		      	Enter the Mass  = : <input type="text" name="mass"><br>
+		      	Enter the Stiffness  = : <input type="text" name="stiffness"><br>
+		      	<button class = "btn btn-outline-info" type = "submit">Submit</button>
+		      </form>
 		    </div>
 		  </div>
 		</article>
@@ -23,6 +28,5 @@
 		    </div>
 		  </div>
 		</article>
-
 
 {% endblock content %}

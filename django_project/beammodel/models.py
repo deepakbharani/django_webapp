@@ -6,8 +6,3 @@ class Beam(models.Model):
 	mmatrix = models.TextField()
 	# Stiffness Matrix
 	smatrix = models.TextField()
-
-
-	def __str__(self):
-		return (self.mmatrix * self.smatrix)
-
